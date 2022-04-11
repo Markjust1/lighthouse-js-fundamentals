@@ -1,11 +1,8 @@
-const whichSchool  = function (age) {
-  if (age < 13) {
-      return 'Elementary School';
-  } else if (age >= 13 && age <= 18) {
-      return 'Secondary School';
-  } else {
-    return 'Lighthouse Labs';
+function makeLine(length) {
+    var line = "";
+    for (var j = 1; j <= length; j++) {
+        line += "* ";
     }
+    return line + "\n";
 }
-console.log("I am 35. Which school should I go to?");
-console.log(whichSchool(35));
+makeLine(3);
