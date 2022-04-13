@@ -1,8 +1,5 @@
-function makeLine(length) {
-    var line = "";
-    for (var j = 1; j <= length; j++) {
-        line += "* ";
-    }
-    return line + "\n";
-}
-makeLine(3);
+var myArray = [1,2,3,4,5];
+myArray.forEach(function(num) {
+    num += ' mississipi';
+console.log(num);
+});
